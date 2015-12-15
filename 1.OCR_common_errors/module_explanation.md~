@@ -26,4 +26,6 @@ Does anybody master interaction between a program and the xml ?
 I mean : how do you make a program (python for example) to write xml code ?
 
 ##Questions arisen to discuss (please edit and add)
+* Do we choose to support a few OCR programs ?
+* How do we handle the case of a terribly deficient OCR ? We have to decide of a limit of consistency and define the program's behavior in a extreme case.
 ## each one and everybody's comments
