@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+*.o
+*.bak
+*.swp
+*~
+*.out
+=======
 # Object files
 *.o
 *.ko
@@ -30,3 +37,4 @@
 
 # Debug files
 *.dSYM/
+>>>>>>> 53fec5fb40701aceffae382ee85c65e05e20b8ba
