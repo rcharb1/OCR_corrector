@@ -86,7 +86,7 @@ def trigrams(word) :
 
 from pprint import pprint
 
-
+# index all words of a certain file according to its trigrams
 def indexText(file) :
 	dic = {}
 	f = open(file, "r")
@@ -98,6 +98,35 @@ def indexText(file) :
 	f.close()
 	return dic
 
+# counts how many trigrams of tri1 are in tri2 
+def inCommon(tri1, tri2) :
+	cpt = 0
+	for trigram in tri1 :
+		if trigram in tri2 :
+			print tri1, tri2
+			cpt += 1
+		else :
+			cpt -= 1
+	print cpt
+	return cpt
 
-pprint(indexText("random_book"))
+
+	
+# find the closest word to given word in given dictionary
+def findClosestWord(word, dic) :
+	trigram = trigrams(word)
+	best = 0
+	for word in dic :
+		curr = inCommon(trigram, dic[word])
+		if curr > best :
+			best = curr
+			closest = word
+	return word
+
+
+
+dic = indexText("random_book")
+findClosestWord(" you ", dic)
+
+
 
