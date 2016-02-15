@@ -7,3 +7,7 @@ intended to automatically correct an Optical Character Recognition document
 * [xml parser for python](http://apprendre-python.com/page-xml-python-xpath)
 * [distance de Levenshtein](https://fr.wikipedia.org/wiki/Distance_de_Levenshtein)
 * [correction orthographique analyse](http://www.enssib.fr/bibliotheque-numerique/documents/62745-conception-et-realisation-d-un-prototype-de-correcteur-orthographique-de-l-arabememoire.pdf) : a little bit heavy, I didn't have time to read the whole thing but it looks very interesting
+
+
+## Sources
+* [For n-grams](http://www.ngrams.info/)
