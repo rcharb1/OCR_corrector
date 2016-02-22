@@ -73,6 +73,6 @@ listOfBooks = []
 for book in argv[1:] : listOfBooks += [book]
 
 indexText(listOfBooks, len(argv) - 1, dic)
+#pprint(dic)
 print "we made a dictionary of ", len(dic), " entries "
 
-findClosestWord(" you ", dic)
